@@ -1,0 +1,55 @@
+﻿/* site.css */
+
+/* Thiết lập margin và padding cho các phần tử */
+body {
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Tạo khung viền cho bảng */
+.table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+    .table th, .table td {
+        border: 1px solid #ccc;
+        padding: 8px;
+    }
+
+/* Tùy chỉnh nút và link */
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+        background-color: #286090;
+        border-color: #204d74;
+    }
